@@ -1,0 +1,849 @@
+# Copyright (C) 2026 LegacyThemes
+# This file is distributed under the GNU General Public License v3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Legacy Preschool Kindergarten 0.0.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/legacy-preschool-kindergarten\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-02-19T04:26:06+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: legacy-preschool-kindergarten\n"
+
+#. Theme Name of the theme
+#: style.css
+#: patterns/footer.php:146
+msgid "Legacy Preschool Kindergarten"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://www.legacytheme.net/products/legacy-preschool-kindergarten"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Legacy Preschool Kindergarten is a multipurpose theme designed for early education websites such as preschools, kindergartens, daycare centers, and child-focused learning programs. The theme features a clean and minimal layout with a responsive design that adapts to desktops, tablets, and mobile devices. It includes sections commonly used on educational websites, such as a banner area, testimonial section, staff/team showcase, and call-to-action buttons. Social media integration is available, and the theme is translation-ready for multilingual use.Developers and site owners can customize layouts, colors, and content using built-in options and shortcodes. The theme uses Bootstrap for a structured framework and optimized code for stable performance. Retina-ready support ensures images display clearly on high-resolution screens, and selective animations provide subtle interaction effects without cluttering the interface.This theme is suitable for educational websites seeking a structured, adaptable, and accessible design."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "LegacyThemes"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.legacytheme.net"
+msgstr ""
+
+#: activation-notice/class-welcome-notice.php:70
+msgid "Thank you for installing Legacy Themes!"
+msgstr ""
+
+#: activation-notice/class-welcome-notice.php:71
+msgid "Welcome to Legacy Preschool Kindergarten WordPress Theme!"
+msgstr ""
+
+#: activation-notice/class-welcome-notice.php:72
+msgid "Our WordPress themes are modern, minimalist, fully responsive, SEO-friendly, and packed with features—perfect for designers, bloggers, and creative professionals across various fields."
+msgstr ""
+
+#: activation-notice/class-welcome-notice.php:76
+msgid "Get Started with Legacy Preschool Kindergarten"
+msgstr ""
+
+#: activation-notice/class-welcome-notice.php:79
+msgid "Get All Themes"
+msgstr ""
+
+#: activation-notice/class-welcome-notice.php:85
+msgid "notice themes img"
+msgstr ""
+
+#: functions.php:46
+msgid "Banner"
+msgstr ""
+
+#: functions.php:53
+#: patterns/footer.php:36
+#: patterns/header.php:58
+msgid "Services"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:111
+msgid "Legacy-themes"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:111
+msgid "Get Theme Info"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:111
+msgid "legacy-preschool-kindergarten-theme-info"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:111
+msgid "legacy_preschool_kindergarten_theme_info"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:123
+msgid "Legacy Preschool Kindergarten WordPress Theme"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:135
+msgid "VIEW DOCUMENTATION"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:144
+msgid "VIEW DEMOS"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:153
+#: legacy-preschool-kindergarten-get-theme-info.php:318
+msgid "UPGRADE TO PRO"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:162
+msgid "RATE OUR THEME"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:171
+msgid "ASK FOR SUPPORT"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:187
+msgid "Why choose our PRO Block Theme version?"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:194
+msgid "Feature"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:195
+msgid "Legacy Preschool Kindergarten Free"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:196
+msgid "Legacy Preschool Kindergarten Pro"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:202
+msgid "Full Site Editing (FSE) Support"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:208
+msgid "Global Styles (theme.json)"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:214
+msgid "Custom Block Patterns"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:220
+msgid "Custom Block Styles (Buttons, Headings, etc.)"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:226
+msgid "Multiple Template Parts (Header, Footer, Sidebar)"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:232
+msgid "Advanced Template Library"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:238
+msgid "Multiple Color Palettes & Gradients"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:244
+msgid "Typography Controls (Fonts, Sizes, Spacing)"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:250
+msgid "WooCommerce Block Integration"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:256
+msgid "Performance Optimized (Lightweight, Fast)"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:262
+msgid "Animation & Scroll Effects"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:268
+msgid "Custom Query Loop Designs"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:274
+msgid "Header & Footer Layout Variations"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:280
+msgid "Custom 404 & Archive Templates"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:286
+msgid "Priority Support"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:296
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:310
+msgid "Bundle up and save! Unlock all our stunning themes in one exclusive pack."
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:312
+msgid "bundle-img"
+msgstr ""
+
+#: legacy-preschool-kindergarten-get-theme-info.php:315
+msgid "GET ALL THEMES – $59"
+msgstr ""
+
+#: legacy-preschool-kindergarten-pro/class-customize.php:77
+msgid "Legacy Kindergarten Pro"
+msgstr ""
+
+#: legacy-preschool-kindergarten-pro/class-customize.php:78
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: patterns/404.php
+msgctxt "Pattern title"
+msgid "404"
+msgstr ""
+
+#: patterns/404.php:11
+msgid "404"
+msgstr ""
+
+#: patterns/404.php:15
+msgid "Page Not Found"
+msgstr ""
+
+#: patterns/404.php:19
+msgid "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+msgstr ""
+
+#: patterns/404.php:25
+msgid "Back to Homepage"
+msgstr ""
+
+#: patterns/archive.php
+msgctxt "Pattern title"
+msgid "Archive"
+msgstr ""
+
+#: patterns/archive.php:23
+#: patterns/index.php:23
+#: patterns/search.php:31
+msgid "."
+msgstr ""
+
+#: patterns/archive.php:51
+#: patterns/index.php:51
+msgid "No posts found in this category."
+msgstr ""
+
+#: patterns/archive.php:55
+#: patterns/index.php:55
+msgid "Try browsing other categories or check out our latest content."
+msgstr ""
+
+#: patterns/footer.php
+msgctxt "Pattern title"
+msgid "Footer"
+msgstr ""
+
+#: patterns/footer.php:23
+msgid "useful links"
+msgstr ""
+
+#: patterns/footer.php:28
+msgid "About us"
+msgstr ""
+
+#: patterns/footer.php:32
+msgid "Portfolio"
+msgstr ""
+
+#: patterns/footer.php:40
+#: patterns/header.php:60
+msgid "Blogs"
+msgstr ""
+
+#: patterns/footer.php:49
+msgid "Others"
+msgstr ""
+
+#: patterns/footer.php:54
+msgid "Careers"
+msgstr ""
+
+#: patterns/footer.php:58
+msgid "Privacy Policy"
+msgstr ""
+
+#: patterns/footer.php:62
+msgid "Products"
+msgstr ""
+
+#: patterns/footer.php:66
+msgid "Awards"
+msgstr ""
+
+#: patterns/footer.php:75
+msgid "FAQs"
+msgstr ""
+
+#: patterns/footer.php:80
+msgid "Is there a grace period for late arrivals?"
+msgstr ""
+
+#: patterns/footer.php:81
+#: patterns/footer.php:87
+#: patterns/footer.php:93
+#: patterns/footer.php:99
+msgid "Trusted Experience There are many variations of passages of Lorem Ipsum available."
+msgstr ""
+
+#: patterns/footer.php:86
+msgid "How far in advance should I book?"
+msgstr ""
+
+#: patterns/footer.php:92
+msgid "What services do you offer?"
+msgstr ""
+
+#: patterns/footer.php:98
+msgid "Do I need a permit for my CA?"
+msgstr ""
+
+#: patterns/footer.php:107
+msgid "Gallery"
+msgstr ""
+
+#: patterns/footer.php:146
+msgid "© 2026"
+msgstr ""
+
+#: patterns/footer.php:146
+msgid ". Designed by LegacyThemes. All rights reserved."
+msgstr ""
+
+#: patterns/header.php
+msgctxt "Pattern title"
+msgid "Header"
+msgstr ""
+
+#: patterns/header.php:29
+msgid "2715 Ash Dr. San Jose, South Dakota 83475"
+msgstr ""
+
+#: patterns/header.php:33
+msgid "(406) 555-0120"
+msgstr ""
+
+#: patterns/header.php:37
+msgid "preschool@example.com"
+msgstr ""
+
+#: patterns/header.php:52
+msgid "Home"
+msgstr ""
+
+#: patterns/header.php:54
+msgid "About Us"
+msgstr ""
+
+#: patterns/header.php:56
+msgid "Page"
+msgstr ""
+
+#: patterns/header.php:62
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/header.php:80
+msgid "Book a visit"
+msgstr ""
+
+#: patterns/hero-banner.php
+msgctxt "Pattern title"
+msgid "Hero Banner"
+msgstr ""
+
+#: patterns/hero-banner.php:15
+msgid "EXCELLENT SCHOOLING"
+msgstr ""
+
+#: patterns/hero-banner.php:19
+msgid "A free nanny will be provided on the first day of your trial period"
+msgstr ""
+
+#: patterns/hero-banner.php:23
+msgid "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout"
+msgstr ""
+
+#: patterns/hero-banner.php:28
+msgid "Try For Free"
+msgstr ""
+
+#: patterns/homepage-blog.php
+msgctxt "Pattern title"
+msgid "Homepage Blog"
+msgstr ""
+
+#: patterns/homepage-blog.php:11
+msgid "Our Latest Blogs"
+msgstr ""
+
+#: patterns/homepage-blog.php:15
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr ""
+
+#: patterns/index-header-image.php
+msgctxt "Pattern title"
+msgid "Index Header Image"
+msgstr ""
+
+#: patterns/index-header-image.php:14
+msgid "blog"
+msgstr ""
+
+#: patterns/index.php
+msgctxt "Pattern title"
+msgid "Index"
+msgstr ""
+
+#: patterns/page-title.php
+msgctxt "Pattern title"
+msgid "Page Title"
+msgstr ""
+
+#: patterns/search-result.php
+msgctxt "Pattern title"
+msgid "Search Result"
+msgstr ""
+
+#: patterns/search.php
+msgctxt "Pattern title"
+msgid "Search"
+msgstr ""
+
+#: patterns/search.php:15
+msgid "Try searching for something else or refine your search terms below."
+msgstr ""
+
+#: patterns/search.php:59
+msgid "Sorry, but nothing matched your search terms."
+msgstr ""
+
+#: patterns/search.php:63
+msgid "Try different keywords or browse our latest content below."
+msgstr ""
+
+#: patterns/services.php
+msgctxt "Pattern title"
+msgid "Services"
+msgstr ""
+
+#: patterns/services.php:16
+msgid "Programs"
+msgstr ""
+
+#: patterns/services.php:20
+msgid "Our Classes Offer"
+msgstr ""
+
+#: patterns/services.php:30
+msgid "Play Group"
+msgstr ""
+
+#: patterns/services.php:34
+msgid "3-4 Years"
+msgstr ""
+
+#: patterns/services.php:38
+#: patterns/services.php:62
+#: patterns/services.php:86
+#: patterns/services.php:110
+msgid "Urna duis convallis convallis tellus id interdum velit laoreet id."
+msgstr ""
+
+#: patterns/services.php:43
+#: patterns/services.php:67
+#: patterns/services.php:91
+#: patterns/services.php:115
+msgid "Read Details"
+msgstr ""
+
+#: patterns/services.php:54
+msgid "Nursery"
+msgstr ""
+
+#: patterns/services.php:58
+msgid "5-6 Years"
+msgstr ""
+
+#: patterns/services.php:78
+msgid "Kindergarten"
+msgstr ""
+
+#: patterns/services.php:82
+msgid "7-9 Years"
+msgstr ""
+
+#: patterns/services.php:102
+msgid "After School Care"
+msgstr ""
+
+#: patterns/services.php:106
+msgid "8-10 Years"
+msgstr ""
+
+#: patterns/single.php
+msgctxt "Pattern title"
+msgid "Single"
+msgstr ""
+
+#: styles/blue.json
+msgctxt "Style variation name"
+msgid "Blue"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/pink.json
+#: styles/red.json
+#: styles/yellow.json
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/pink.json
+#: styles/red.json
+#: styles/yellow.json
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/pink.json
+#: styles/red.json
+#: styles/yellow.json
+#: theme.json
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/pink.json
+#: styles/red.json
+#: styles/yellow.json
+#: theme.json
+msgctxt "Color name"
+msgid "Classtwo"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/pink.json
+#: styles/red.json
+#: styles/yellow.json
+#: theme.json
+msgctxt "Color name"
+msgid "Classfour"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/pink.json
+#: styles/red.json
+#: styles/yellow.json
+#: theme.json
+msgctxt "Color name"
+msgid "Fourth"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/pink.json
+#: styles/red.json
+#: styles/yellow.json
+msgctxt "Color name"
+msgid "Accent"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/pink.json
+#: styles/red.json
+#: styles/yellow.json
+#: theme.json
+msgctxt "Color name"
+msgid "Heading"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/pink.json
+#: styles/red.json
+#: styles/yellow.json
+#: theme.json
+msgctxt "Color name"
+msgid "Body"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/pink.json
+#: styles/red.json
+#: styles/yellow.json
+#: theme.json
+msgctxt "Color name"
+msgid "Surface"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/pink.json
+#: styles/red.json
+#: styles/yellow.json
+#: theme.json
+msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/pink.json
+#: styles/red.json
+#: styles/yellow.json
+#: theme.json
+msgctxt "Color name"
+msgid "Light Gray"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/pink.json
+#: styles/red.json
+#: styles/yellow.json
+#: theme.json
+msgctxt "Color name"
+msgid "Border"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/pink.json
+#: styles/red.json
+#: styles/yellow.json
+#: theme.json
+msgctxt "Color name"
+msgid "Muted"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/pink.json
+#: styles/red.json
+#: styles/yellow.json
+#: theme.json
+msgctxt "Color name"
+msgid "Success"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/pink.json
+#: styles/red.json
+#: styles/yellow.json
+#: theme.json
+msgctxt "Color name"
+msgid "Warning"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/pink.json
+#: styles/red.json
+#: styles/yellow.json
+#: theme.json
+msgctxt "Color name"
+msgid "Error"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/pink.json
+#: styles/red.json
+#: styles/yellow.json
+#: theme.json
+msgctxt "Color name"
+msgid "Transparent"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/pink.json
+#: styles/red.json
+#: styles/yellow.json
+#: theme.json
+msgctxt "Gradient name"
+msgid "Secondary Gradient"
+msgstr ""
+
+#: styles/green.json
+msgctxt "Style variation name"
+msgid "Green"
+msgstr ""
+
+#: styles/pink.json
+msgctxt "Style variation name"
+msgid "Pink"
+msgstr ""
+
+#: styles/red.json
+msgctxt "Style variation name"
+msgid "Red"
+msgstr ""
+
+#: styles/yellow.json
+msgctxt "Style variation name"
+msgid "Yellow"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Clip"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary Duotone"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Dark Duotone"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Poppins"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Just Another Hand"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Protest Riot"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XX Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XXX Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XXXX Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "X Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "XX Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "XXX Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""

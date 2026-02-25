@@ -1,0 +1,33 @@
+/*
+Theme Name: Rainbow Preschool
+Author: Kantipur Themes
+Author URI: https://www.kantipurthemes.com/
+Theme URI: https://www.kantipurthemes.com/rainbow-preschool
+Description: Rainbow Preschool is a versatile and multipurpose WordPress theme that has been developed with scholastics at heart. With a playful vibe and a focus on bright and bubbly colour design it is highly suited to early learning websites, including Kindergarten, Preschool and Junior through to Primary school learning centres.
+Tags: full-site-editing, editor-style, block-styles, block-patterns
+Text Domain: rainbow-preschool
+Requires at least: 6.4
+Requires PHP: 7.4
+Tested up to: 6.9
+Version: 1.0.0
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* Styles intended only for the front.*/
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}

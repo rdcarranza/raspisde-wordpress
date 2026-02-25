@@ -1,0 +1,1718 @@
+/**
+ * Legacy Preschool Kindergarten Theme Styles
+ * Custom styles for the Legacy Preschool Kindergarten WordPress theme
+ */
+
+/* Base Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--wp--preset--font-family--poppins);
+    line-height: 1.6;
+    color: var(--wp--preset--color--body);
+    background-color: #fff;
+}
+
+/* Typography Enhancements */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--wp--preset--font-family--poppins);
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+}
+
+/* Link Styles */
+a {
+    color: var(--wp--preset--color--primary);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: var(--wp--preset--color--secondary);
+}
+
+/* ========================================
+   CONTENT LINKS STYLING - WORDPRESS THEME REVIEW REQUIREMENTS
+   ======================================== */
+
+/* Links within ALL content areas - Required by WordPress Theme Review Guidelines */
+/* Covers: the_content(), the_excerpt(), comments, widgets, and custom text blocks */
+.wp-block-post-content a,
+.entry-content a,
+.post-content a,
+.page-content a,
+article a,
+.comment-content a,
+.comment-text a,
+.wp-block-post-excerpt a,
+.post-excerpt a,
+.excerpt a,
+.widget a,
+.widget-content a,
+.wp-block-text a,
+.textwidget a,
+.wp-block-paragraph a,
+.wp-block-list a,
+.wp-block-quote a,
+.wp-block-pullquote a,
+.wp-block-verse a,
+.wp-block-preformatted a,
+.content a,
+main a,
+.site-content a {
+    color: var(--wp--preset--color--primary);
+    text-decoration: underline;
+    text-underline-offset: 0.125em;
+    text-decoration-thickness: 1px;
+    transition: all 0.3s ease;
+}
+
+/* Content link hover state */
+.wp-block-post-content a:hover,
+.entry-content a:hover,
+.post-content a:hover,
+.page-content a:hover,
+article a:hover,
+.comment-content a:hover,
+.comment-text a:hover,
+.wp-block-post-excerpt a:hover,
+.post-excerpt a:hover,
+.excerpt a:hover,
+.widget a:hover,
+.widget-content a:hover,
+.wp-block-text a:hover,
+.textwidget a:hover,
+.wp-block-paragraph a:hover,
+.wp-block-list a:hover,
+.wp-block-quote a:hover,
+.wp-block-pullquote a:hover,
+.wp-block-verse a:hover,
+.wp-block-preformatted a:hover,
+.content a:hover,
+main a:hover,
+.site-content a:hover {
+    color: var(--wp--preset--color--secondary);
+    text-decoration-thickness: 2px;
+}
+
+/* Content link focus state for accessibility */
+.wp-block-post-content a:focus,
+.entry-content a:focus,
+.post-content a:focus,
+.page-content a:focus,
+article a:focus,
+.comment-content a:focus,
+.comment-text a:focus,
+.wp-block-post-excerpt a:focus,
+.post-excerpt a:focus,
+.excerpt a:focus,
+.widget a:focus,
+.widget-content a:focus,
+.wp-block-text a:focus,
+.textwidget a:focus,
+.wp-block-paragraph a:focus,
+.wp-block-list a:focus,
+.wp-block-quote a:focus,
+.wp-block-pullquote a:focus,
+.wp-block-verse a:focus,
+.wp-block-preformatted a:focus,
+.content a:focus,
+main a:focus,
+.site-content a:focus {
+    outline: 2px solid var(--wp--preset--color--primary);
+    outline-offset: 2px;
+    text-decoration-thickness: 2px;
+}
+/* EXCLUDE specific elements from underline styling */
+/* Buttons */
+.wp-block-button a,
+.wp-block-buttons a,
+.button,
+.btn,
+/* Images and Media */
+.wp-block-image a,
+.wp-block-gallery a,
+.wp-block-media-text a,
+.wp-block-cover a,
+/* Navigation and Menus */
+.wp-block-navigation a,
+.navigation a,
+.nav a,
+.menu a,
+.navbar a,
+/* Headers and Logos */
+.site-title a,
+.site-header a,
+.header a,
+.logo a,
+/* Social Links */
+.wp-block-social-links a,
+.social-links a,
+/* Post Meta */
+.wp-block-post-title a,
+.wp-block-post-author a,
+.wp-block-post-date a,
+.wp-block-post-terms a,
+.post-meta a,
+.entry-meta a,
+/* Cards and Special Blocks */
+.wp-block-latest-posts a,
+.wp-block-archives a,
+.wp-block-categories a,
+.wp-block-tag-cloud a,
+.card a,
+/* Pagination */
+.wp-block-query-pagination a,
+.pagination a,
+.page-numbers,
+/* Footer specific */
+.site-footer .wp-block-navigation a,
+.footer-navigation a {
+    text-decoration: none !important;
+}
+
+/* Ensure excluded elements stay without underlines on hover */
+.wp-block-button a:hover,
+.wp-block-buttons a:hover,
+.button:hover,
+.btn:hover,
+.wp-block-image a:hover,
+.wp-block-gallery a:hover,
+.wp-block-media-text a:hover,
+.wp-block-cover a:hover,
+.wp-block-navigation a:hover,
+.navigation a:hover,
+.nav a:hover,
+.menu a:hover,
+.navbar a:hover,
+.site-title a:hover,
+.site-header a:hover,
+.header a:hover,
+.logo a:hover,
+.wp-block-social-links a:hover,
+.social-links a:hover,
+.wp-block-post-title a:hover,
+.wp-block-post-author a:hover,
+.wp-block-post-date a:hover,
+.wp-block-post-terms a:hover,
+.post-meta a:hover,
+.entry-meta a:hover,
+.wp-block-latest-posts a:hover,
+.wp-block-archives a:hover,
+.wp-block-categories a:hover,
+.wp-block-tag-cloud a:hover,
+.card a:hover,
+.wp-block-query-pagination a:hover,
+.pagination a:hover,
+.page-numbers:hover,
+.site-footer .wp-block-navigation a:hover,
+.footer-navigation a:hover {
+    text-decoration: none !important;
+}
+
+/* ========================================
+   BUTTON ENHANCEMENTS
+   ======================================== */
+
+/* Button Enhancements */
+.wp-block-button__link {
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+/* ========================================
+   HEADER NAVIGATION STYLING
+   ======================================== */
+
+/* HEADER NAVIGATION SPACING - Desktop */
+.legacy-preschool-kindergarten-header .legacy-preschool-kindergarten-main-navigation ul {
+    display: flex !important;
+    align-items: center !important;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.legacy-preschool-kindergarten-header .legacy-preschool-kindergarten-main-navigation .wp-block-navigation-item {
+    margin-right: 20px !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.legacy-preschool-kindergarten-header .wp-block-navigation__submenu-container.wp-block-navigation-submenu li::before,.legacy-preschool-kindergarten-header .wp-block-navigation__submenu-container.wp-block-navigation-submenu li::after{
+    display: none;
+}
+
+.legacy-preschool-kindergarten-header li.wp-block-navigation-item.wp-block-navigation-link:hover span, .legacy-preschool-kindergarten-header li.wp-block-navigation-item.current-menu-item.wp-block-navigation-link span {
+    color: var(--wp--preset--color--primary);
+    padding: 7px 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.legacy-preschool-kindergarten-header li.wp-block-navigation-item.wp-block-navigation-link:focus span, .legacy-preschool-kindergarten-header li.wp-block-navigation-item.current-menu-item.wp-block-navigation-link span {
+    color: var(--wp--preset--color--primary) !important;
+    padding: 7px 10px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    position: relative;
+}
+.legacy-preschool-kindergarten-header li.wp-block-navigation-item.wp-block-navigation-link:hover span:after
+, .legacy-preschool-kindergarten-header li.wp-block-navigation-item.current-menu-item.wp-block-navigation-link:hover span:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 10px;
+    content: "\f004";
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    right: -5px;
+    top: -2px;
+    position: absolute;
+    color: var(--wp--preset--color--primary);
+    z-index: 999;
+    rotate: 315deg;
+}
+.legacy-preschool-kindergarten-header span.wp-block-navigation-item__label {
+    padding: 7px 10px;
+}
+
+.legacy-preschool-kindergarten-header .legacy-preschool-kindergarten-main-navigation .wp-block-navigation__container {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+}
+
+.legacy-preschool-kindergarten-header ul.wp-block-navigation__submenu-container.wp-block-navigation-submenu {
+    color: #222 !important;
+}
+
+.legacy-preschool-kindergarten-header .legacy-preschool-kindergarten-main-navigation {
+    display: block !important;
+}
+
+/* Header CTA Button - Awesome styling for all screens */
+.slide-btn{
+    position: relative !important;
+}
+
+.legacy-preschool-kindergarten-header-cta .wp-block-button__link:hover {
+    background: var(--wp--preset--color--primary) !important;
+    color: white !important;
+}
+
+.legacy-preschool-kindergarten-header-cta .wp-block-button__link:hover::before {
+    left: 100% !important;
+}
+
+/* Header-specific styling */
+.legacy-preschool-kindergarten-header-container {
+    align-items: center;
+}
+
+.legacy-preschool-kindergarten-header-logo {
+    align-items: center;
+}
+
+.legacy-preschool-kindergarten-header-nav {
+    align-items: center;
+}
+
+.legacy-preschool-kindergarten-header-cta {
+    margin-left: var(--wp--preset--spacing--medium);
+}
+
+.header-logo h1 a:hover{
+    color: var(--wp--preset--color--secondary) !important;
+}
+
+span.head-tone strong {
+    text-transform: uppercase;
+}
+span.dashicons.dashicons-phone{
+    display: none;
+}
+.blog-default-image{
+  border-radius: 16px 16px 0px 0px;
+  height: 200px;  
+}
+.blog-default-image img {
+    height: 200px;
+    border-radius: 16px 16px 0px 0px;
+    padding: 0;
+}
+.wp-block-button.header-btn a:hover,.banner-main-section .wp-block-button a:hover,.sercvice-button .wp-block-button a:hover {
+    color: #fff !important;
+    background: #000000 !important;
+}
+/* ========================================
+   GENERAL COMPONENT STYLES
+   ======================================== */
+
+/* Navigation Enhancements */
+.wp-block-navigation-item a {
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.wp-block-navigation-item a:hover {
+    color: var(--wp--preset--color--primary);
+}
+
+/* Footer Navigation Links - Only links have hover effects */
+footer .wp-block-navigation-item a {
+    color: var(--wp--preset--color--background);
+    transition: all 0.3s ease;
+}
+
+footer .wp-block-navigation-item a:hover {
+    color: var(--wp--preset--color--primary);
+    transform: translateY(-2px);
+}
+
+/* Footer Links Hover Effect */
+footer .wp-block-group .wp-block-paragraph a {
+    transition: all 0.3s ease;
+}
+
+footer .wp-block-group .wp-block-paragraph a:hover {
+    transform: translateY(-2px);
+    text-decoration: underline;
+}
+
+/* Remove hover effects from footer columns themselves */
+footer .wp-block-column {
+    transition: none;
+}
+
+footer .wp-block-column:hover {
+    transform: none;
+}
+
+/* ========================================
+   FOOTER STYLING - SIMPLE FIX
+   ======================================== */
+
+/* SIMPLE: Just remove white backgrounds from footer elements */
+footer,
+footer * {
+    background-color: inherit !important;
+}
+
+/* Footer navigation styling */
+footer .wp-block-navigation {
+    display: block !important;
+}
+
+footer .wp-block-navigation ul {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: var(--wp--preset--spacing--x-small) !important;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+footer .wp-block-navigation .wp-block-navigation-item {
+    margin: 0 !important;
+}
+
+footer .wp-block-navigation .wp-block-navigation__container {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: var(--wp--preset--spacing--x-small) !important;
+}
+
+/* Footer groups - prevent unwanted effects */
+footer .wp-block-group {
+    transition: none !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+footer .wp-block-group:hover {
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+footer .wp-block-social-links .wp-social-link svg{
+    color: #000 !important;
+    font-size: 20px;
+}
+footer .wp-block-social-links .wp-social-link svg:hover{
+    color:var(--wp--preset--color--primary) !important;
+}
+.foot-grid{
+    display: grid !important;
+    grid-template-columns: 150px auto auto auto;
+    margin: 0;
+}
+.footer-coll {
+    height: 100%;
+}
+
+/* ========================================
+   topbar
+   ======================================== */
+
+.topbar .wp-block-social-links, .topbar .wp-block-social-links.has-normal-icon-size {
+    font-size: 24px;
+    margin: 0;
+}
+
+.topbar .wp-block-social-links .wp-block-social-link.wp-social-link:hover .wp-block-social-link-anchor svg {
+    color: var(--wp--preset--color--primary) !important;
+}
+.topbar-detail {
+    gap: 30px;
+}
+.cart-detail{
+    gap: 10px;
+}
+.header-cart span {
+    display: none !important;
+}
+.topbar .wp-block-social-links{
+    margin: 0 !important;
+}
+.menu-margin{
+    margin: 0px;
+}
+
+.mail-address{
+    position: relative;
+}
+
+.header-search .wp-block-search__inside-wrapper{
+    position: relative !important;
+}
+
+.header-search.wp-block-search.wp-block-search__button-only .wp-block-search__input{
+    position: absolute !important;
+    z-index: 9999;
+    top: -4px;
+    background: #fff !important;
+    right: 60px;
+    width: 400px;
+}
+
+.header-search .wp-block-search__button svg{
+    fill: #fff;
+}
+
+header.legacy-preschool-kindergarten-header{
+    position: relative;
+    z-index: 9;
+}
+.wp-block-buttons.sercvice-button.is-layout-flex.wp-block-buttons-is-layout-flex{
+    justify-content: center;
+}
+p.sercvice-year {
+    border-bottom: dotted 3px #fff;
+    padding: 10px;
+}
+.service-box-1{
+    text-align: center;
+}
+.service-box-1 {
+    position: relative;
+    -webkit-mask-image: url(../images/service-bg.png);
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    width: 100% !important;
+    height: 400px !important;
+    object-fit: cover;
+    opacity: 1;
+}
+.sercvice-img img{
+    position: relative;
+    -webkit-mask-image: url(../images/small.png);
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    background: #000;
+    -webkit-mask-size: 100% 100%;
+    width: 100px !important;
+    height: 100px !important;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.topbar-main{
+    width: 80% !important;
+} 
+.whole-header{
+    position: relative;
+}
+.home .whole-header:after {
+    content: "";
+    background-image: url(../images/Header.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: block;
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-size: 100% 100%;
+}
+p.location i,p.mail-address i {
+    color: var(--wp--preset--color--secondary);
+}
+.header-admin a {
+    border-radius: 50% !important;
+}
+.header-search button{
+    padding: 10px !important;
+    background: #141213 !important;
+    border-radius: 50% !important;
+}
+/* ========================================
+   BANNER
+   ======================================== */
+
+.banner-main-section{
+    position: relative;
+    min-height: 700px !important;
+    display: flex;
+    align-items: center;
+}
+.slider-box{
+   min-height: 700px !important; 
+}
+h2.banner-heading{
+    width: 80%;
+    text-align: left;
+    margin: 4px 0px !important;
+}
+.slide-group{
+    width: 100%;
+}
+p.banner-extra-head{
+    display: inline-block;
+}
+.slide-empty figure.wp-block-image.size-full {
+    text-align: center;
+}
+.slide-empty .wp-block-image img {
+    height: 520px;
+    width: 400px;
+    object-fit: contain !important;
+    position: relative;
+    z-index: 999;
+    right: 36px;
+}
+.slide-empty{
+    position: relative;
+}
+.banner-position{
+    position: relative;
+}
+.slide-empty figure::after {
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 550px;
+    background: var(--wp--preset--color--primary);
+    right: 0px;
+    border-radius: 200px 200px 0px 0px;
+}
+.banner-main-section{
+    position: relative;
+}
+.banner-main-section:after {
+    content: "";
+    background-image: url("../images/Subtract.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: block;
+    height: 100px;
+    position: absolute;
+    bottom: -3px;
+    width: 100%;
+    z-index: 999;
+    background-size: 100% 100%;
+}
+.banner-contentt{
+    position: relative;
+}
+.banner-contentt::before{
+    content: '';
+    position: absolute;
+    left: -150px;
+    bottom: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    background: url('../images/banner-icon-1.png') no-repeat right top;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+.banner-contentt::after{
+    content: '';
+    position: absolute;
+    left: -150px;
+    bottom: 0px;
+    width: 40px;
+    height: 40px;
+    background: url('../images/banner-icon-2.png') no-repeat right top;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+.banner-position::before {
+    content: '';
+    position: absolute;
+    left: 32%;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    background: url(../images/banner-icon-3.png) no-repeat right top;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+.banner-position::after {
+    content: '';
+    position: absolute;
+    right: -10%;
+    bottom: 150px;
+    width: 40px;
+    height: 40px;
+    background: url(../images/banner-icon-4.png) no-repeat right top;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+/* ========================================
+   PRODUCT SECTION
+   ======================================== */
+.product-box{
+    position: relative;
+}
+.service-img-col,.service-img{
+    height: 270px;
+}
+.service-img img{
+    height: 270px;
+    object-fit: cover;
+}
+.service-section a.wp-block-post-excerpt__more-link {
+    color: #1b1b19;
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: none;
+    position: relative;
+    padding-left: 22px;
+}
+.service-section a.wp-block-post-excerpt__more-link:hover{
+    color: var(--wp--preset--color--primary) !important;
+}
+.service-section a.wp-block-post-excerpt__more-link::after{
+    content: "\f138";
+    font-family: 'Font Awesome 5 Free';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.service-section{
+    position: relative;
+}
+.cat-position li{
+    border: 1px solid #cccccc;
+    padding: 10px 14px;
+    border-radius: 18px;
+    margin: 0px 20px;
+}
+
+/* ========================================
+   FEATURED PROJECTS - SPECIFIC TARGETING
+   ======================================== */
+
+/* Target ONLY the Featured Projects section on homepage using background color selector */
+.wp-block-group.has-light-gray-background-color .wp-block-columns .wp-block-column .wp-block-group {
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 16px !important;
+    overflow: hidden !important;
+    background: var(--wp--preset--color--background) !important;
+    border: none !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+    transition: all 0.3s ease !important;
+}
+
+.wp-block-group.has-light-gray-background-color .wp-block-columns .wp-block-column .wp-block-group:hover {
+    transform: translateY(-8px) !important;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Featured Projects - Zero gap images */
+.wp-block-group.has-light-gray-background-color .wp-block-columns .wp-block-column .wp-block-group .wp-block-image {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 0 !important;
+    border-radius: 16px 16px 0 0 !important;
+    overflow: hidden !important;
+}
+
+.wp-block-group.has-light-gray-background-color .wp-block-columns .wp-block-column .wp-block-group .wp-block-image img {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-radius: 16px 16px 0 0 !important;
+    vertical-align: top !important;
+    transition: all 0.3s ease !important;
+}
+
+.wp-block-group.has-light-gray-background-color .wp-block-columns .wp-block-column .wp-block-group .wp-block-image figure {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 0 !important;
+}
+
+/* Featured Projects - Content area gets padding */
+.wp-block-group.has-light-gray-background-color .wp-block-columns .wp-block-column .wp-block-group .wp-block-group[style*="padding"] {
+    padding: var(--wp--preset--spacing--medium) !important;
+    margin: 0 !important;
+}
+
+/* Featured Projects - Image hover effect */
+.wp-block-group.has-light-gray-background-color .wp-block-columns .wp-block-column .wp-block-group:hover .wp-block-image img {
+    transform: scale(1.02) !important;
+}
+
+/* ========================================
+   FORM ELEMENTS AND INTERACTIONS
+   ======================================== */
+
+/* Service Cards */
+.wp-block-group[style*="border-radius:16px"] {
+    transition: all 0.3s ease;
+}
+
+.wp-block-group[style*="border-radius:16px"]:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Elements */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+    border: 1px solid var(--wp--preset--color--border);
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-family: var(--wp--preset--font-family--poppins);
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+    border-color: var(--wp--preset--color--primary);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    outline: none;
+}
+
+/* Search Block Styling */
+.wp-block-search {
+    border-radius: 8px;
+}
+
+.wp-block-search__input {
+    border: 1px solid var(--wp--preset--color--border);
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-family: var(--wp--preset--font-family--poppins);
+}
+
+.wp-block-search__button {
+    background: var(--wp--preset--color--primary);
+    border: none;
+    color: #000000;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.wp-block-search__button:hover {
+    background: var(--wp--preset--color--secondary);
+}
+
+/* ========================================
+   BLOG AND PAGINATION STYLES
+   ======================================== */
+
+/* Pagination */
+.wp-block-query-pagination {
+    margin-top: var(--wp--preset--spacing--xx-large);
+}
+
+.wp-block-query-pagination .page-numbers {
+    display: inline-block;
+    padding: 12px 16px;
+    margin: 0 4px;
+    border: 1px solid var(--wp--preset--color--border);
+    border-radius: 8px;
+    color: var(--wp--preset--color--heading);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.wp-block-query-pagination .page-numbers:hover,
+.wp-block-query-pagination .page-numbers.current {
+    background: var(--wp--preset--color--primary);
+    color: white;
+    border-color: var(--wp--preset--color--primary);
+}
+
+/* Social Links */
+.wp-block-social-links .wp-social-link {
+    transition: all 0.3s ease;
+}
+
+.wp-block-social-links .wp-social-link:hover {
+    transform: translateY(-2px);
+}
+
+/* Portfolio Card Styling */
+.legacy-preschool-kindergarten-portfolio-card {
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.legacy-preschool-kindergarten-portfolio-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Blog Archive Grid Layout - SIMPLIFIED TO MATCH SEARCH TEMPLATE */
+.wp-block-query .wp-block-post-template.is-layout-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--wp--preset--spacing--large) !important;
+/*    max-width: 1200px;*/
+    margin: 0 auto;
+}
+
+.simple-blog .wp-block-query .wp-block-post-template.is-layout-grid{
+    max-width: 100% !important;
+}
+
+/* Blog Archive Specific - Make Cards Wider to Match Portfolio */
+.wp-block-query .legacy-preschool-kindergarten-portfolio-card {
+    max-width: none;
+    width: 100%;
+}
+
+/* Portfolio Grid Specific - Keep Original Sizing */
+.wp-block-columns .wp-block-column .wp-block-group {
+    max-width: none;
+    width: 100%;
+}
+
+/* MOBILE RESPONSIVE - SIMPLE OVERRIDE */
+@media (max-width: 768px) {
+    /* Force single column on mobile - simple approach */
+    .wp-block-query .wp-block-post-template.is-layout-grid {
+        grid-template-columns: 1fr !important;
+        gap: var(--wp--preset--spacing--medium) !important;
+    }
+    
+    /* Mobile blog grid - single column - MATCHING EXISTING RULE */
+    .wp-block-query .wp-block-post-template.is-layout-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+/* Blog Archive Specific - Make Cards Wider to Match Portfolio */
+.wp-block-query .legacy-preschool-kindergarten-portfolio-card {
+    max-width: none;
+    width: 100%;
+}
+
+/* Portfolio Grid Specific - Keep Original Sizing */
+.wp-block-columns .wp-block-column .wp-block-group {
+    max-width: none;
+    width: 100%;
+}
+
+/* Blog Archive Featured Images */
+.legacy-preschool-kindergarten-portfolio-card .wp-block-post-featured-image {
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 16px 16px 0 0;
+    height: 200px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.legacy-preschool-kindergarten-portfolio-card .wp-block-post-featured-image img {
+    border-radius: 16px 16px 0 0;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.legacy-preschool-kindergarten-portfolio-card .wp-block-post-featured-image figure {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 200px;
+    overflow: hidden;
+}
+
+/* Blog Cards - Same Height as Portfolio Cards */
+.legacy-preschool-kindergarten-portfolio-card {
+    padding: 0 !important;
+    min-height: 420px;
+    width: 100%;
+    max-width: none;
+}
+
+.legacy-preschool-kindergarten-portfolio-card > .wp-block-post-featured-image:first-child {
+    margin-top: 0 !important;
+    border-radius: 16px 16px 0 0;
+}
+
+/* Force Blog Archive Query to Use Full Available Width */
+.wp-block-group .wp-block-query.alignwide {
+/*    max-width: 1200px;*/
+    width: 100%;
+}
+
+/* Override WordPress Default Query Constraints for Blog Cards */
+.wp-block-query .wp-block-post-template {
+    max-width: none;
+    width: 100%;
+}
+
+/* Prevent child elements from inheriting shadow effects */
+.legacy-preschool-kindergarten-portfolio-card * {
+    box-shadow: none !important;
+}
+
+.legacy-preschool-kindergarten-portfolio-card:hover * {
+    box-shadow: none !important;
+}
+
+/* ========================================
+   PRICING CARD STYLING
+   ======================================== */
+
+/* Pricing Card Styling - Remove shadow effects completely */
+.legacy-preschool-kindergarten-pricing-card {
+    transition: all 0.3s ease;
+    position: relative;
+    transform: translateZ(0);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.legacy-preschool-kindergarten-pricing-card:hover {
+    transform: translateY(-4px) translateZ(0);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.legacy-preschool-kindergarten-pricing-featured {
+    position: relative;
+    overflow: visible;
+}
+
+.legacy-preschool-kindergarten-pricing-features {
+    list-style: none;
+}
+
+.legacy-preschool-kindergarten-pricing-features li {
+    color: var(--wp--preset--color--body);
+    font-weight: 500;
+    padding-left: 0;
+}
+
+.legacy-preschool-kindergarten-pricing-features li::before {
+    content: "";
+    margin-right: 0;
+}
+
+/* Complete text shadow elimination for pricing cards */
+.legacy-preschool-kindergarten-pricing-card,
+.legacy-preschool-kindergarten-pricing-card *,
+.legacy-preschool-kindergarten-pricing-card .wp-block-paragraph,
+.legacy-preschool-kindergarten-pricing-card .wp-block-heading,
+.legacy-preschool-kindergarten-pricing-card h1, .legacy-preschool-kindergarten-pricing-card h2, .legacy-preschool-kindergarten-pricing-card h3,
+.legacy-preschool-kindergarten-pricing-card h4, .legacy-preschool-kindergarten-pricing-card h5, .legacy-preschool-kindergarten-pricing-card h6,
+.legacy-preschool-kindergarten-pricing-card p, .legacy-preschool-kindergarten-pricing-card span, .legacy-preschool-kindergarten-pricing-card div {
+    text-shadow: none !important;
+    -webkit-text-shadow: none !important;
+    -moz-text-shadow: none !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+    -moz-filter: none !important;
+    -ms-filter: none !important;
+    -o-filter: none !important;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.legacy-preschool-kindergarten-pricing-card:hover,
+.legacy-preschool-kindergarten-pricing-card:hover *,
+.legacy-preschool-kindergarten-pricing-card:hover .wp-block-paragraph,
+.legacy-preschool-kindergarten-pricing-card:hover .wp-block-heading,
+.legacy-preschool-kindergarten-pricing-card:hover h1, .legacy-preschool-kindergarten-pricing-card:hover h2, .legacy-preschool-kindergarten-pricing-card:hover h3,
+.legacy-preschool-kindergarten-pricing-card:hover h4, .legacy-preschool-kindergarten-pricing-card:hover h5, .legacy-preschool-kindergarten-pricing-card:hover h6,
+.legacy-preschool-kindergarten-pricing-card:hover p, .legacy-preschool-kindergarten-pricing-card:hover span, .legacy-preschool-kindergarten-pricing-card:hover div {
+    text-shadow: none !important;
+    -webkit-text-shadow: none !important;
+    -moz-text-shadow: none !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+    -moz-filter: none !important;
+    -ms-filter: none !important;
+    -o-filter: none !important;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ========================================
+   FOOTER NAVIGATION LISTS
+   ======================================== */
+
+/* Footer Navigation Lists */
+footer .footer-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*footer .footer-nav-list li {
+    margin-bottom: var(--wp--preset--spacing--x-small);
+}*/
+
+footer .footer-nav-list li a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: #fff;
+    display: flex;
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+.cover-padding {
+    align-items: start;
+    padding: 0;
+}
+
+.footer-head{
+    margin-top: 0;
+
+}
+
+footer .footer-nav-list li a:hover {
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+footer .footer-col ul li a:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 12px;
+    content: "\f105";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.footer-gallery figure figure{
+    height: 80px;
+}
+.footer-gallery figure img{
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* FAQ's Section */
+.FAQ details.faq-btm-title summary{ 
+    padding: 5px 0px 5px 50px;
+  list-style: none;
+  position: relative;
+}
+.FAQ details.faq-btm-title summary:after {
+    content: "\f067";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    font-weight: 900;
+    font-size: 12px;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.FAQ details[open].faq-btm-title summary:after{
+    content: "\f068";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    font-weight: 900;
+    font-size: 12px;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.FAQ details[open].faq-btm-title > summary{
+  background: var(--wp--preset--gradient--banner-background-main);
+  color: var(--wp--preset--color--background);
+  border-color: var(--wp--preset--color--secondary);
+}
+
+.FAQ details p {
+    background: #fff !important;
+    color: rgba(36, 36, 36, 1);
+    padding: 14px;
+    border-radius: 16px;
+    margin: 0;
+}
+
+.wc-block-components-button__text {
+    color: #fff;
+}
+
+/* ========================================
+   RESPONSIVE ADJUSTMENTS
+   ======================================== */
+
+@media (min-width: 300px) and (max-width: 600px){
+    .foot-grid{
+        grid-template-columns: auto;
+    }
+    .copy-row{
+        display: flex;
+        justify-content: center;
+    }
+    .service-img img,.service-img-col{
+        height: 180px !important;
+    }
+    .cat-position li{
+        margin: 0px 1px;
+    }
+    .whole-header:after{
+       display: none; 
+    }
+}
+@media (min-width: 1024px){
+.legacy-preschool-kindergarten-header .legacy-preschool-kindergarten-main-navigation .wp-block-navigation-item{
+    position: relative;
+}
+.legacy-preschool-kindergarten-header .legacy-preschool-kindergarten-main-navigation .wp-block-navigation-item ul li{
+    position: relative;
+    padding: 0px;
+    width: 100%;
+}
+}
+@media (min-width: 1024px) and (max-width: 1024px) {
+    .legacy-preschool-kindergarten-header .legacy-preschool-kindergarten-main-navigation .wp-block-navigation-item {
+        padding: 0px !important;
+    }
+.legacy-preschool-kindergarten-header .legacy-preschool-kindergarten-main-navigation .wp-block-navigation__container {
+    gap: 0px;
+}
+.legacy-preschool-kindergarten-header .legacy-preschool-kindergarten-main-navigation .wp-block-navigation-item {
+    margin-right: 0px !important;
+}
+}
+@media (min-width: 1024px) and (max-width: 1399px) {
+.social-links{
+    flex-basis: 15%;
+}
+.sec-headerss{
+    max-width: 95% !important;
+}
+.top-address{
+    flex-basis: 85%;
+}
+.topbar .wp-block-social-links, .topbar .wp-block-social-links.has-normal-icon-size {
+    font-size: 20px;
+}
+.service-main-col{
+    flex-wrap: wrap !important;
+}
+.service-img-div,.service-content-div{
+    flex-basis: 100% !important;
+}
+.banner-contentt{
+    flex-basis: 60% !important;
+}
+.slide-empty{
+    flex-basis: 40% !important;
+}
+.header-btn a{
+    font-size: 12px !important;
+    padding: 10px !important;
+}
+.copy-row {
+    justify-content: center;
+}
+.banner-position::after{
+    right: 5%;
+}
+.whole-header:after {
+    height: 65px;
+}
+.wp-block-buttons.header-admin{
+    display: none;
+}
+
+
+}
+@media (max-width: 767px){
+    .topbar-detail{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header-social-icon{
+        justify-content: center;
+    }
+    .menu-margin{
+        display: grid !important;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas:
+        "logo logo"
+        "menu btns";
+        gap: 10px;
+    }
+    .header-logo  { grid-area: logo;
+    }
+    .header-menu { grid-area: menu;
+    }
+    .header-btns { grid-area: btns;
+    }
+    .menu-margin{
+        text-align: center;
+    }
+    .legacy-preschool-kindergarten-header{
+        display: flex;
+        justify-content: center;
+        padding: 10px 0px !important;
+    }
+    .topbar-detail{
+        gap: 12px;
+    }
+    .slide-empty .wp-block-image img{
+        height: 300px;
+    }
+    .slide-empty::after {
+        width: 250px;
+        height: 250px;
+        top: 15%;
+        right: 40px;
+    }
+    .slide-group{
+        margin-top: 30px !important;
+    }
+    .banner-main-section:after {
+        height: 60px;
+    }
+    .whole-header:after{
+        display: none;
+    }
+    .header-search.wp-block-search.wp-block-search__button-only .wp-block-search__input {
+        position: absolute !important;
+        z-index: 9999;
+        bottom: -37px;
+        background: #fff !important;
+        right: 14px;
+        width: 280px;
+        top: auto;
+    }
+    .header-search .wp-block-search__inside-wrapper {
+            position: static !important;
+    }
+}
+@media (min-width: 300px) and (max-width: 350px){
+    .wp-block-button.header-btn img{
+        width: 22px !important;
+    }
+}
+@media (min-width: 300px) and (max-width: 781px){
+    .slide-empty figure.wp-block-image.size-full{
+        float: none !important;
+        margin: 0px auto !important;
+    }
+    .slide-empty figure::after {
+        right: 0px;
+        left: 0px;
+        margin: 0 auto;
+    }
+    .slide-empty .wp-block-image img{
+        right: 0px;
+        left: 0px;
+        margin: 0 auto; 
+    }
+}
+@media (min-width: 781px) and (max-width: 999px){
+    .header-logo ,.header-btns{
+        flex-basis: 40% !important;
+    }
+    .header-menu{
+         flex-basis: 20% !important;
+    }
+}
+@media (min-width: 700px) and (max-width: 781px){
+     .menu-margin{
+        display: grid !important;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        grid-template-areas:"logo menu btns";
+        gap: 10px;
+        padding: 6px 0px;
+}
+.header-logo  { grid-area: logo;
+ }
+.header-menu { grid-area: menu;
+ }
+.header-btns { grid-area: btns;
+ }
+}
+@media (min-width: 450px) and (max-width: 700px){
+     .menu-margin{
+        display: grid !important;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas:"logo logo"
+                            "menu btns";
+        gap: 10px;
+    }
+    .header-logo  { 
+        grid-area: logo;
+    }
+    .header-menu { 
+        grid-area: menu;
+    }
+    .header-btns { 
+        grid-area: btns;
+    }
+}
+@media (min-width: 300px) and (max-width: 450px){
+    .header-logo  { 
+        grid-area: logo;
+    }
+    .header-menu { 
+        grid-area: menu;
+    }
+    .header-btns { 
+        grid-area: btns;
+    }
+    .legacy-preschool-kindergarten-header-cta{
+        justify-content: center !important;
+    }
+    .legacy-preschool-kindergarten-header .legacy-preschool-kindergarten-main-navigation{
+        display: flex !important;
+        justify-content: center;
+    }
+}
+@media (min-width: 300px) and (max-width: 600px){
+    .slide-empty figure::after {
+        width: 231px;
+        height: 417px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .topbar-detail{
+        gap: 25px;
+        display: grid !important;
+        grid-template-columns: auto auto;
+    }
+    .topbar-detail{
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 15px;
+    }
+    header.legacy-preschool-kindergarten-header{
+        padding: 12px 0px 0px 0px !important;
+    }
+    .legacy-preschool-kindergarten-header .legacy-preschool-kindergarten-main-navigation {
+        display: flex !important;
+        justify-content: start;
+    }
+    p.footer-detail-text {
+        margin-left: 30px;
+    }
+    .footer-contact{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .topbar .wp-block-social-links, .topbar .wp-block-social-links.has-normal-icon-size {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-col{
+        display: grid !important;
+        grid-template-columns: auto auto;
+    }
+    .copy-row{
+        display: flex;
+        justify-content: center;
+    }
+    .slide-empty::after{
+        right: 90px;
+    }
+    .slide-content-box{
+        margin-top: 10px !important;
+    }
+    .whole-header:after{
+        height: 30px;
+    }
+    .slide-content-box{
+        margin-top: 50px !important;
+    }
+    .banner-position::after{
+        right: 0;
+    }
+    .banner-position::before {
+        left: 10%;
+    }
+}
+@media (min-width: 1440px) and (max-width: 1600px){
+.legacy-preschool-kindergarten-header .legacy-preschool-kindergarten-main-navigation .wp-block-navigation-item {
+    margin-right: -10px !important;
+}
+.legacy-preschool-kindergarten-header .legacy-preschool-kindergarten-main-navigation .wp-block-navigation-item{
+    padding: 10px 0px !important;
+}
+.banner-contentt{
+    flex-basis: 45% !important;
+}
+.banner-position{
+    flex-basis: 55% !important;
+}
+.topbar-detail {
+    gap: 0px;
+}
+.topbar-detail .dashicons, .dashicons-before:before{
+    display: none;
+}
+}
+@media (max-width: 768px) {
+    /* Base responsive */
+    .wp-block-columns {
+        flex-direction: column;
+    }
+    
+    .wp-block-column {
+        flex-basis: 100% !important;
+    }
+    
+    h1, .has-huge-font-size {
+        font-size: 2.5rem !important;
+    }
+    
+    h2, .has-xxxx-large-font-size {
+        font-size: 2rem !important;
+    }
+    
+    /* Mobile blog grid - single column */
+    .wp-block-query .wp-block-post-template.is-layout-grid {
+        grid-template-columns: 1fr !important;
+        gap: var(--wp--preset--spacing--medium) !important;
+    }
+    
+    /* Ensure cards are full width */
+    .legacy-preschool-kindergarten-portfolio-card {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-bottom: var(--wp--preset--spacing--large) !important;
+    }
+
+}
+@media (min-width: 781px) and (max-width: 999px){
+    .slide-empty figure::after{
+        width: 325px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1400px) {
+    .main-banner-section h1{
+        font-size: 70px !important;
+    }
+    .banner-position::before{
+        display: none;
+    }
+    .foot-grid{
+        grid-template-columns: auto auto;
+    }
+    p.footer-detail-text {
+        margin-left: 50px;
+    }
+    figure.footer-gallery{
+    display: grid;
+    grid-template-columns: auto auto;
+    }
+    figure.foot-gal-img{
+    width: 100% !important;
+    }
+    .topbar-detail{
+        display: grid !important;
+        grid-template-columns: auto auto;
+        row-gap: 18px;
+    }
+    .banner-position{
+        position: static;
+    }
+    .slide-empty::after{
+        height: 470px;
+        width: 350px;
+    }
+}
+@media (max-width: 999px) {
+    .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+        display: none;
+    }
+    .wp-block-navigation__responsive-container-open:not(.always-shown){
+        display: block;
+    }
+     /* MOBILE HEADER - Logo left, hamburger right, single row */
+    .legacy-preschool-kindergarten-header-container {
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+
+    /* Mobile navigation - hamburger button */
+    .legacy-preschool-kindergarten-header .wp-block-navigation .wp-block-navigation__responsive-container-open {
+        background: var(--wp--preset--color--primary) !important;
+        color: white !important;
+        border: none !important;
+        border-radius: 8px !important;
+        padding: 12px !important;
+        width: 48px !important;
+        height: 48px !important;
+        cursor: pointer !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+
+    .legacy-preschool-kindergarten-header .wp-block-navigation__responsive-container-close{
+        top: 20px !important;
+    }
+    .wp-block-navigation__responsive-container-close, .wp-block-navigation__responsive-container-open{
+        background: #000000 !important;
+        color: #fff;
+    }
+    
+    /* Mobile menu when open */
+    .legacy-preschool-kindergarten-header .wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open {
+        background: white !important;
+        padding: 40px 20px !important;
+    }
+    
+    /* Vertical menu items */
+    .legacy-preschool-kindergarten-header .wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open ul {
+        flex-direction: column !important;
+        gap: 0 !important;
+        align-items: stretch !important;
+        width: 100%;
+    }
+    
+    /* Menu item styling */
+    .legacy-preschool-kindergarten-header .wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item {
+        width: 100% !important;
+        margin: 0 !important;
+        border-bottom: 1px solid #eee !important;
+    }
+    
+    .legacy-preschool-kindergarten-header .wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item:last-child {
+        border-bottom: none !important;
+    }
+    
+    /* Menu link styling */
+    .legacy-preschool-kindergarten-header .wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item a {
+        display: block !important;
+        padding: 12px 0 !important;
+        text-align: center !important;
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        color: var(--wp--preset--color--heading) !important;
+        text-decoration: none !important;
+    }
+
+    .legacy-preschool-kindergarten-header .wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item a:focus{
+        color: var(--wp--preset--color--primary) !important;
+    }
+    
+    .legacy-preschool-kindergarten-header .wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item a:hover {
+        color: var(--wp--preset--color--primary) !important;
+    }
+    
+    /* MOBILE TEAM SECTION - Professional styling */
+    .legacy-preschool-kindergarten-team-section .wp-block-image img[style*="border-radius:100px"] {
+        width: 120px !important;
+        height: 120px !important;
+        border: 3px solid var(--wp--preset--color--surface) !important;
+    }
+    .whole-header .wp-block-search__button svg {
+        fill: #fff;
+    }
+    .topbar{
+        padding: 0 !important;
+    }
+}
+@media (max-width: 1023px){
+    .home .whole-header:after{
+        display: none;
+    }
+}
+/* ========================================
+   PRINT STYLES
+   ======================================== */
+
+/* Print Styles */
+@media print {
+    .wp-block-navigation,
+    .wp-block-buttons,
+    .wp-block-social-links {
+        display: none;
+    }
+    
+    .wp-block-group {
+        box-shadow: none !important;
+        transform: none !important;
+    }
+}

@@ -1,0 +1,269 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-07 16:24+0545\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions.php:113
+msgid "Welcome to the"
+msgstr ""
+
+#: functions.php:114
+msgid "is now installed and ready to use."
+msgstr ""
+
+#: functions.php:117
+msgid "rainbow-pro"
+msgstr ""
+
+#: functions.php:117
+msgid "Buy Pro"
+msgstr ""
+
+#: functions.php:118
+msgid "Theme Info"
+msgstr ""
+
+#: inc/filters.php:18
+msgctxt "Used if posts or pages has no title"
+msgid "(No title)"
+msgstr ""
+
+#: inc/register-block-patterns.php:25
+msgid "Theme patterns"
+msgstr ""
+
+#: inc/register-block-styles.php:22
+msgid "Flat button"
+msgstr ""
+
+#: inc/register-block-styles.php:30
+msgid "Underlined list items"
+msgstr ""
+
+#: inc/register-block-styles.php:38 inc/register-block-styles.php:46
+#: inc/register-block-styles.php:54
+msgid "Box shadow"
+msgstr ""
+
+#: inc/register-block-styles.php:62
+msgid "Plus & minus"
+msgstr ""
+
+#: patterns/comments.php:17
+msgid "Comments"
+msgstr ""
+
+#: patterns/footer.php:17 patterns/footer.php:44
+#: patterns/preschool-about.php:26
+msgid "About Us"
+msgstr ""
+
+#: patterns/footer.php:21
+msgid ""
+"Venenatis arcu autem, mollis! Urna doloribus cum nihil donec aliquip id "
+"hendrerit parturient corrupti velit lect."
+msgstr ""
+
+#: patterns/footer.php:39
+msgid "Our Company"
+msgstr ""
+
+#: patterns/footer.php:48
+msgid "Services"
+msgstr ""
+
+#: patterns/footer.php:52
+msgid "Portfolio"
+msgstr ""
+
+#: patterns/footer.php:56
+msgid "Testimonial"
+msgstr ""
+
+#: patterns/footer.php:63
+msgid "Useful Links"
+msgstr ""
+
+#: patterns/footer.php:68
+msgid "Privacy Policy"
+msgstr ""
+
+#: patterns/footer.php:72
+msgid "Help Center"
+msgstr ""
+
+#: patterns/footer.php:76
+msgid "Terms & Conditions"
+msgstr ""
+
+#: patterns/footer.php:80
+msgid "Customer Care"
+msgstr ""
+
+#: patterns/footer.php:87
+msgid "Company Info"
+msgstr ""
+
+#: patterns/footer.php:91
+msgid "Jl. Niti Mandala Renon No.88, Denpasar, Bali - 80239"
+msgstr ""
+
+#: patterns/footer.php:95
+msgid "Phone : (316) 212-3456, Email : xyz@example.com"
+msgstr ""
+
+#: patterns/footer.php:111
+msgid "Copyright 2025. All right reserved."
+msgstr ""
+
+#: patterns/header.php:29
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/hidden-404.php:25
+msgid "Page not found"
+msgstr ""
+
+#: patterns/hidden-404.php:30
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: patterns/hidden-footer-links.php:21
+#, php-format
+msgid "Copyright %s. "
+msgstr ""
+
+#: patterns/hidden-footer-links.php:22
+msgctxt "copyright date format"
+msgid "Y"
+msgstr ""
+
+#: patterns/hidden-footer-links.php:24
+msgid "All right reserved."
+msgstr ""
+
+#: patterns/hidden-post-meta.php:21
+msgid "Categories: "
+msgstr ""
+
+#: patterns/preschool-about.php:30
+msgid "A Safe, Stimulating, and Loving Learning Space"
+msgstr ""
+
+#: patterns/preschool-about.php:35
+msgid ""
+"In our preschool, every child is a star twinkling in the vast expanse of the "
+"universe, each one unique and precious in their own right."
+msgstr ""
+
+#: patterns/preschool-about.php:53
+msgid "95% Kindergarten Ready"
+msgstr ""
+
+#: patterns/preschool-about.php:57
+msgid "Our graduates enter school with strong academic and social skills!"
+msgstr ""
+
+#: patterns/preschool-about.php:77
+msgid "Over 500 Smiles Daily"
+msgstr ""
+
+#: patterns/preschool-about.php:81
+msgid "Every day, we nurture hundreds of happy, engaged little learners."
+msgstr ""
+
+#: patterns/preschool-about.php:101
+msgid "10,000+ Learning Hours"
+msgstr ""
+
+#: patterns/preschool-about.php:105
+msgid "Committed to early education excellence through play-based learning!"
+msgstr ""
+
+#: patterns/preschool-banner.php:17
+msgid "Little Steps, Big Dreams"
+msgstr ""
+
+#: patterns/preschool-banner.php:21
+msgid ""
+"We empower young learners with the confidence, creativity, compassion, and "
+"courage to thrive in a diverse and dynamic world."
+msgstr ""
+
+#: patterns/preschool-banner.php:26
+msgid "Explore Our Programs"
+msgstr ""
+
+#: patterns/preschool-latest-posts.php:16
+msgid "Insights"
+msgstr ""
+
+#: patterns/preschool-latest-posts.php:20
+msgid "Exploring the Latest Insights and Innovations in Education"
+msgstr ""
+
+#: patterns/preschool-services.php:17
+msgid "Key Features"
+msgstr ""
+
+#: patterns/preschool-services.php:21
+msgid "Preschool Advantage - Learning Beyond The Classroom"
+msgstr ""
+
+#: patterns/preschool-services.php:37
+msgid "Holistic Learning"
+msgstr ""
+
+#: patterns/preschool-services.php:41
+msgid "Balancing academics, arts, and sports for well-rounded."
+msgstr ""
+
+#: patterns/preschool-services.php:57
+msgid "Experienced Faculty"
+msgstr ""
+
+#: patterns/preschool-services.php:61
+msgid "Dedicated teachers who inspire and guide."
+msgstr ""
+
+#: patterns/preschool-services.php:77
+msgid "Art Facilities"
+msgstr ""
+
+#: patterns/preschool-services.php:81
+msgid "Modern classrooms, labs, and play areas."
+msgstr ""
+
+#: patterns/preschool-services.php:97
+msgid "Tailored Learning"
+msgstr ""
+
+#: patterns/preschool-services.php:101
+msgid "Small class sizes for individualized learning."
+msgstr ""
+
+#: patterns/primary-sidebar.php:12
+msgid "Latest posts"
+msgstr ""
+
+#: patterns/primary-sidebar.php:16
+msgid "Latest Comments"
+msgstr ""
+
+#: patterns/query.php:44
+msgid "No results"
+msgstr ""
